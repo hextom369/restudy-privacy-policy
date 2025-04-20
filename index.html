@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restudy - Privacy Policy</title> <style>
-        
+        /* 簡単なスタイル設定 (お好みで調整・削除してください) */
         body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
         h1, h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; }
         ul { padding-left: 20px; }
@@ -17,71 +17,69 @@
 
     <h1>Privacy Policy for Restudy</h1>
 
-    <p><strong>Effective Date:</strong> April 20, 2025</p> <p>Thank you for using Restudy! This Privacy Policy explains how we collect, use, and disclose information about you when you use our mobile application ("App").</p>
+    <p><strong>Effective Date:</strong> April 20, 2025</p> <p>Thank you for using Restudy! This Privacy Policy explains how we handle information when you use our mobile application ("App"). Our core principle is to minimize data collection.</p>
 
-    <h2>1. Information We Collect</h2>
-    <p>We collect the following types of information:</p>
+    <h2>1. Information We Handle</h2>
+    <p>We handle information in the following ways:</p>
     <ul>
-        <li><strong>Information You Provide:</strong>
+        <li><strong>Information You Create and Manage Locally:</strong>
             <ul>
-                <li><strong>Flashcard Content:</strong> We store the text and any images you add to your flashcards directly on your device using local storage (<code>shared_preferences</code> or similar). This data is stored locally and is not typically transmitted to our servers unless you use a future cloud sync feature (which would be covered by an updated policy).</li>
+                <li><strong>Flashcard Content (Text and Images):</strong> You can create flashcards containing text and images (using the <code>image_picker</code> if you grant permission). This data is stored **strictly locally on your device** using mechanisms like <code>shared_preferences</code> or internal storage. **We, the developers, do not collect, transmit, access, or store your flashcard content on any server.** This data remains entirely under your control on your device.</li>
             </ul>
         </li>
-        <li><strong>Information Collected Automatically:</strong>
+        <li><strong>Information Collected Automatically for Ads (via Google AdMob):</strong>
             <ul>
-                <li><strong>Advertising Data (via Google AdMob):</strong> We use Google AdMob to serve advertisements within the App. AdMob may collect device identifiers (like the Advertising ID), IP address, device information (model, OS version), location information (if permitted), and information about your interactions with ads. This data is used by Google to provide, personalize, and measure the effectiveness of ads.</li>
-                <li><strong>Usage Information (Potentially via AdMob):</strong> AdMob may also collect general usage data related to ad interactions. We currently do not implement separate analytics tracking beyond what AdMob provides.</li>
+                <li><strong>Advertising Data:</strong> We use Google AdMob to display advertisements, which helps support the App. AdMob, as a third-party service, may collect device identifiers (like the Advertising ID), IP address, device information (model, OS version), general location information, and information about your interactions with ads displayed in the App. This data is collected directly by Google and is used by them to provide, personalize, and measure the effectiveness of ads.</li>
             </ul>
         </li>
-         <li><strong>Permissions:</strong>
+         <li><strong>Permissions Requested:</strong>
             <ul>
-                <li><strong>Storage/Photos (via Image Picker):</strong> If you choose to add images to your flashcards, the App will request permission to access your photo library or camera via the <code>image_picker</code> plugin. We only access the images you specifically select.</li>
-                <li><strong>Microphone (Potentially via Audioplayers):</strong> If future features involve recording audio for flashcards using <code>audioplayers</code>, the App would request microphone permission at that time. Currently, it's likely used only for playback of pre-existing audio files (like beeps).</li>
+                <li><strong>Storage/Photos (Optional, via Image Picker):</strong> If you choose to add images to your flashcards, the App will request permission to access your photo library or camera via the <code>image_picker</code> plugin. We only access the images you specifically select, and these images are stored locally as part of your flashcard data, not collected by us.</li>
                 <li><strong>Internet:</strong> Required by Google AdMob to fetch and display advertisements.</li>
+                <li><strong>Audio Playback (Not Collection):</strong> The App uses <code>audioplayers</code> solely for playing back pre-packaged sound files (like timer beeps). **The App does not request microphone permission and does not collect any audio data from your device.**</li>
             </ul>
         </li>
     </ul>
 
-    <h2>2. How We Use Your Information</h2>
-    <p>We use the information we collect for the following purposes:</p>
+    <h2>2. How We Use Information</h2>
+    <p>The information handled is used solely for the following purposes:</p>
     <ul>
-        <li><strong>To Provide and Maintain the App:</strong> To store and display your flashcards, play sounds (<code>audioplayers</code>), and enable core app functionality.</li>
-        <li><strong>To Display Advertisements:</strong> To support the App financially, we use Google AdMob to display ads. Google uses the data collected to show relevant ads to you.</li>
-        <li><strong>To Improve the App:</strong> We may use aggregated, non-identifiable data derived from ad interactions (if available via AdMob reporting) to understand usage patterns and improve the App.</li>
+        <li><strong>To Provide App Functionality:</strong> To allow you to create, store (locally), manage, and view your flashcards, and to play notification sounds.</li>
+        <li><strong>To Display Advertisements:</strong> To financially support the App through Google AdMob.</li>
     </ul>
 
     <h2>3. Information Sharing and Disclosure</h2>
-     <p>We do not share your personal information except in the following circumstances:</p>
+     <p>We do not collect your personal flashcard data, so we cannot share it. The only potential sharing involves data collected directly by third-party services:</p>
      <ul>
-         <li><strong>With Service Providers (Google AdMob):</strong> We share information with Google as necessary to provide advertising services through AdMob. Google's use of this data is governed by their own privacy policies.</li>
-         <li><strong>For Legal Reasons:</strong> We may disclose information if required by law, subpoena, or other legal process, or if we have a good faith belief that disclosure is reasonably necessary to (a) investigate, prevent, or take action regarding suspected or actual illegal activities or to assist government enforcement agencies; (b) enforce our agreements with you; (c) investigate and defend ourselves against any third-party claims or allegations; (d) protect the security or integrity of our App; or (e) exercise or protect the rights and safety of Restudy, our users, personnel, or others.</li>
+         <li><strong>Google AdMob:</strong> Information collected by AdMob (as described in Section 1) is shared with Google for advertising purposes, subject to Google's own privacy policies. We do not share your user-created flashcard content with Google or any other third party.</li>
+         <li><strong>For Legal Reasons:</strong> We may be required to disclose information collected by service providers (like AdMob device identifiers associated with ad requests, if compelled) if required by law, subpoena, or other legal process, or if necessary to protect safety, security, or legal rights.</li>
      </ul>
 
     <h2>4. Third-Party Services (Google AdMob)</h2>
     <p>Our App uses Google AdMob for advertising. AdMob is an advertising service provided by Google LLC.</p>
     <ul>
-        <li>For more information on how Google collects and uses data, please visit Google's Privacy & Terms site: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a></li>
-        <li>You can often control personalized advertising settings through your device's settings (e.g., "Limit Ad Tracking" on iOS or "Opt out of Ads Personalization" on Android).</li>
+        <li>For more information on how Google collects and uses data via AdMob, please review Google's Privacy & Terms site: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a></li>
+        <li>You can often control personalized advertising settings through your mobile device's settings (e.g., "Limit Ad Tracking" on iOS or "Opt out of Ads Personalization" on Android).</li>
     </ul>
 
     <h2>5. Data Storage and Security</h2>
     <ul>
-        <li>Your flashcard content (text and selected images) is stored locally on your device. We do not have access to this data.</li>
-        <li>We take reasonable measures to help protect information about you from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction. However, no electronic transmission or storage is completely secure.</li>
+        <li><strong>Your flashcard content (text and selected images) is stored exclusively locally on your device.** We, the developers, have no access to this data. The security of this local data depends on the security of your device itself.</li>
+        <li>We implement reasonable measures within the app's code, but securing locally stored data primarily relies on the device's operating system security features.</li>
     </ul>
 
     <h2>6. Your Rights and Choices</h2>
     <ul>
-        <li><strong>Flashcard Data:</strong> You can access, modify, and delete the flashcard content you create directly within the Restudy app. Since this data is stored locally, uninstalling the app will typically remove this data from the device (though remnants might exist in device backups depending on system settings).</li>
-        <li><strong>Advertising Preferences:</strong> You can manage your preferences for personalized advertising through your mobile device's settings, as mentioned in Section 4.</li>
+        <li><strong>Flashcard Data Management:</strong> You have full control to create, access, modify, and delete your flashcard content directly within the Restudy app on your device.</li>
+        <li><strong>Advertising Preferences:** You can manage your preferences for personalized advertising via your mobile device's settings, as mentioned in Section 4.</li>
     </ul>
 
     <h2>7. Children's Privacy</h2>
-    <p>Restudy is not intended for use by children under the age of 13 (or the relevant minimum age in your jurisdiction). We do not knowingly collect personal information from children under 13. If we learn that we have collected personal information from a child under 13, we will take steps to delete such information as soon as possible.</p>
+    <p>Restudy is not intended for use by children under the age of 13 (or the relevant minimum age in your jurisdiction). We do not knowingly collect personal information (as defined by applicable laws like COPPA) from children. The data collected by AdMob is subject to Google's policies regarding children.</p>
 
     <h2>8. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. If we make changes, we will notify you by revising the "Effective Date" at the top of the policy and, in some cases, we may provide additional notice (such as adding a statement to our App or sending you a notification). We encourage you to review the Privacy Policy whenever you access the App to stay informed about our information practices and the choices available to you.</p>
+    <p>We may update this Privacy Policy from time to time. If we make changes, we will notify you by revising the "Effective Date" at the top of the policy. We encourage you to review the Privacy Policy periodically to stay informed about how we handle information.</p>
 
     <h2>9. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:Your_Email_Address_Here">Your_Email_Address_Here</a></p> </body>
+    <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:Your_Email_Address_Here">guaqiaoshouta15@gmail.com</a></p> </body>
 </html>
